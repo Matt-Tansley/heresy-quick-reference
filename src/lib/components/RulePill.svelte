@@ -4,10 +4,7 @@
 	let modal: HTMLDialogElement;
 
 	const toggleModal = () => {
-		console.log('button clicked');
-
 		modal.open ? closeModal() : openModal();
-		// modal && (modal.open ? closeModal(modal) : openModal(modal));
 	};
 
 	const openModal = () => {
